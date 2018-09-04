@@ -1,0 +1,37 @@
+{
+  "name": "breaking-bad-quotes-cli",
+  "version": "1.0.0",
+  "description": "Get a random quote from Breaking Bad in your terminal!",
+  "keywords": [
+    "breaking",
+    "bad",
+    "heisenberg",
+    "quotes",
+    "api",
+    "cli",
+    "cli-app",
+    "command"
+  ],
+  "author": "shevabam",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shevabam/breaking-bad-quotes-cli"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shevabam/breaking-bad-quotes-cli/issues"
+  },
+  "homepage": "https://github.com/shevabam/breaking-bad-quotes-cli",
+  "preferGlobal": true,
+  "bin": {
+    "breaking-bad-quotes": "cli.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.10",
+    "meow": "^5.0.0",
+    "update-notifier": "^2.5.0"
+  }
+}
