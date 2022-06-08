@@ -3,7 +3,7 @@
 const axios = require('axios');
 const _ = require('lodash');
 
-const baseUrl = 'https://breaking-bad-quotes.herokuapp.com/v1';
+const baseUrl = 'https://api.breakingbadquotes.xyz/v1';
 
 module.exports = (opts, callback) => {
     return new Promise((resolve, reject) => {
